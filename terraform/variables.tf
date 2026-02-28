@@ -50,6 +50,6 @@ variable "db_username" {
 
 variable "db_password" {
   description = "Database password - change this!"
-  default     = "SuperSecret123!"
+  default     = "CHANGE_ME_IN_PRODUCTION"
   sensitive   = true
 }
